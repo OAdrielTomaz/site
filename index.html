@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Roxo Supremo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="form-card">
+
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="https://via.placeholder.com/80x80?text=🌌" alt="Logo" />
+      </div>
+
+      <!-- TÍTULO E DESCRIÇÃO -->
+      <h2>Crie sua conta</h2>
+      <p class="subtitle">Junte-se à revolução roxa. Libere o poder do roxão agora mesmo.</p>
+
+      <!-- FORMULÁRIO -->
+      <form action="/cadastrar" method="post">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="password" name="senha" placeholder="Crie uma senha" required>
+
+        <!-- TERMOS -->
+        <label class="terms">
+          <input type="checkbox" required>
+          Aceito os <a href="#">termos de uso</a> e a <a href="#">política de privacidade</a>
+        </label>
+
+        <button type="submit">Começar</button>
+      </form>
+
+      <!-- OU -->
+      <div class="divider">
+        <span>ou</span>
+      </div>
+
+      <!-- SOCIAL LOGIN -->
+      <div class="social-login">
+        <button class="google">🔵 Entrar com Google</button>
+        <button class="facebook">🔷 Entrar com Facebook</button>
+      </div>
+
+      <!-- LINK DE LOGIN -->
+      <p class="login-link">Já tem uma conta? <a href="#">Entrar</a></p>
+
+    </div>
+  </div>
+
+</body>
+</html>
